@@ -1,0 +1,26 @@
+.main {
+  padding: 10px;
+  margin: 10px;
+  background-color: #eee;
+  border: 5px solid #ccc;
+}
+
+.class1 {
+  @extend .main;
+  color: green;
+}
+
+.class2 {
+  @extend .main;
+  color: orangered;
+}
+
+.class3 {
+  @extend .main;
+  color: blue;
+}
+
+.class4 {
+  @extend .main;
+  color: orange;
+}

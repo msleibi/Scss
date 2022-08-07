@@ -1,0 +1,51 @@
+.interducing {
+  color: rgb(185, 30, 9);
+  width: 50%;
+  height: 50%;
+  background-color: rgba(182, 176, 176, 0.603);
+}
+
+.wrapper {
+  background-color: #eee;
+}
+.wrapper .interducing {
+  color: #00f;
+}
+.wrapper:hover {
+  background-color: #f1c40f;
+}
+
+.class1 {
+  font-size: 52px;
+  background-color: rgb(171, 235, 171);
+  width: 20%;
+  float: left;
+}
+
+.class2 {
+  font-size: 52px;
+  background-color: rgb(234, 235, 171);
+  width: 20%;
+  float: left;
+}
+
+.class3 {
+  font-size: 52px;
+  background-color: rgb(235, 171, 235);
+  width: 20%;
+  float: left;
+}
+
+.class4 {
+  font-size: 52px;
+  background-color: rgb(139, 138, 139);
+  width: 20%;
+  float: left;
+}
+
+.class5 {
+  font-size: 52px;
+  background-color: rgb(125, 243, 145);
+  width: 20%;
+  float: left;
+}/*# sourceMappingURL=style.css.map */

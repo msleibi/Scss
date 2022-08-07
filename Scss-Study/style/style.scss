@@ -1,0 +1,61 @@
+// Test: commit for HP laptop :)
+$main-color: rgb(185, 30, 9);
+$main-background-color: rgba(182, 176, 176, 0.603);
+$main-width: 50%;
+$main-height: 50%;
+$font-color: #00f;
+$hover-background: #f1c40f;
+$main-size: 26px;
+$mainWidth: 100%;
+$number-of-elements: 5;
+
+.interducing {
+  color: $main-color;
+  width: $main-width;
+  height: $main-height;
+  background-color: $main-background-color;
+}
+
+// Nesting
+
+.wrapper {
+  background-color: #eee;
+  .interducing {
+    color: $font-color;
+  }
+  &:hover {
+    background-color: $hover-background;
+  }
+}
+
+.class1 {
+  font-size: $main-size * 2;
+  background-color: rgb(171, 235, 171);
+  width: $mainWidth / $number-of-elements;
+  float: left;
+}
+.class2 {
+  font-size: $main-size * 2;
+  background-color: rgb(234, 235, 171);
+  width: $mainWidth / $number-of-elements;
+  float: left;
+}
+.class3 {
+  font-size: $main-size * 2;
+  background-color: rgb(235, 171, 235);
+  width: $mainWidth / $number-of-elements;
+  float: left;
+}
+.class4 {
+  font-size: $main-size * 2;
+  background-color: rgb(139, 138, 139);
+  width: $mainWidth / $number-of-elements;
+  float: left;
+}
+.class5 {
+  font-size: $main-size * 2;
+  background-color: rgb(125, 243, 145);
+  width: $mainWidth / $number-of-elements;
+  float: left;
+
+}
